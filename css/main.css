@@ -1,0 +1,69 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --footer-background: #2f303a;
+  --accent-color-pictures: rgba(33, 150, 243, 0.9);
+}
+
+/*герой*/
+.hero {
+  background-color: var(--footer-background);
+}
+
+.hero .upper {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--primary-white-color);
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.hero button {
+  display: flex;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  letter-spacing: 0.06em;
+}
+
+.advantages .advatage-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+.list .text {
+  font-size: 14px;
+  line-height: 2;
+}
+
+.applications .applications-type {
+  color: var(--primary-white-color);
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.members .members-name,
+.members .members-profession {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.members .members-name {
+  font-weight: 500;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}

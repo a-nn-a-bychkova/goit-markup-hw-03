@@ -1,0 +1,44 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --footer-background: #2f303a;
+  --button-portfolio-background: #f5f4fa;
+  --accent-color-pictures: rgba(33, 150, 243, 0.9);
+}
+
+/*фильтр*/
+.filter button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  color: var(--title-text-color);
+  background-color: var(--button-portfolio-background);
+}
+
+.filter button:hover,
+.filter button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/*наши работы*/
+.examples .examples-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.examples .examples-sort {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+.examples .examples-description {
+  font-size: 18px;
+  line-height: 1.56;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color-pictures);
+}
