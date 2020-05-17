@@ -9,12 +9,42 @@
 }
 
 /*фильтр*/
+.portfolio {
+  outline: 2px dotted pink;
+  padding: 94px 200px;
+}
+
+.portfolio .container {
+  width: 1230px;
+  outline: 2px dotted pink;
+}
+
+.container .filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.filter .item {
+  margin-bottom: 50px;
+}
+
+.filter .item + .item {
+  margin-left: 8px;
+}
+
 .filter button {
+  padding: 6px 22px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   color: var(--title-text-color);
   background-color: var(--button-portfolio-background);
+
+  border-radius: 4px;
+  border: none;
+  outline: none;
 }
 
 .filter button:hover,
@@ -24,7 +54,39 @@
 }
 
 /*наши работы*/
+.our-works .container {
+  width: 1230px;
+  outline: 2px dotted pink;
+}
+
+.galery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: teal;
+}
+
+.galery .item {
+  width: calc(100%-60px / 3);
+  margin-right: 30px;
+}
+
+.galery .item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.examples {
+  display: block;
+  background-color: var(--primary-white-color);
+}
+
+.examples img {
+  margin-bottom: 20px;
+}
+
 .examples .examples-name {
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;

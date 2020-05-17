@@ -6,34 +6,77 @@
   --footer-background: #2f303a;
   --accent-color-pictures: rgba(33, 150, 243, 0.9);
 }
+.title {
+  margin: 0;
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
 
 /*герой*/
 .hero {
   background-color: var(--footer-background);
 }
 
-.hero .upper {
+.hero-title {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  color: var(--primary-white-color);
-  text-align: center;
   letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  padding: 46px;
 }
 
 .hero button {
-  display: flex;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  text-align: center;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   letter-spacing: 0.06em;
+  border-radius: 6px;
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+/* преимущества */
+/* .advantages {
+    margin-left: auto;
+  margin-right: auto;
+} */
+.our-advantages .container {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  outline: 2px dotted pink;
+}
+
+.advantages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 94px 200px;
+}
+.advantages .item {
+  padding-top: 94px;
+}
+
+.advantages .item + .item {
+  margin-left: 30px;
+}
+
+.adv-link img {
+  margin-bottom: 30px;
 }
 
 .advantages .advatage-title {
+  margin-bottom: 10px;
+
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -44,11 +87,81 @@
 .list .text {
   font-size: 14px;
   line-height: 2;
+  max-width: 278px;
+}
+
+/* чем мы занимаемся */
+/* .what-we-do {
+    margin-left: auto;
+  margin-right: auto;
+} */
+/* .what-we-do {
+  display: container;
+  justify-content: center;
+} */
+
+.what-we-do {
+  display: flex;
+  justify-content: center;
+  padding: ;
+}
+
+.what-we-do .container {
+  outline: 2px dotted pink;
+  text-align: center;
+}
+
+.applications {
+  display: flex;
+  flex-direction: row;
+}
+
+.applications .item {
+  padding-top: 94px;
+  margin-bottom: 94px;
+}
+
+.applications .item + .item {
+  margin-left: 30px;
 }
 
 .applications .applications-type {
+  padding-top: 27px;
+  padding-bottom: 27px;
+  width: 380px;
+  height: 70px;
+
   color: var(--primary-white-color);
   background-color: rgba(47, 48, 58, 0.8);
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* наша команда */
+/* .team {
+  margin-left: auto;
+  margin-right: auto;
+} */
+.team {
+  padding: 94px 198px;
+  background-color: #f5f4fa;
+}
+
+.team .team-container {
+  outline: 2px dotted pink;
+}
+
+.team-container .title {
+  text-align: center;
+}
+
+.members {
+  display: flex;
+  flex-direction: row;
+  /* margin: 186px 200px 94px; */
+}
+
+.members .item + .item {
+  margin-left: 30px;
 }
 
 .members .members-name,
@@ -57,13 +170,42 @@
   line-height: 1.19;
 }
 
-.members .members-name {
+.members img {
+  margin-bottom: 30px;
+}
+.members-name {
+  margin-bottom: 10px;
   font-weight: 500;
 }
+.members-profession {
+  margin-bottom: 10px;
+}
+.members.list {
+  width: 1230px;
+}
 
-.title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
+/* наши постоянные клиенты */
+/* .our-clients {
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.our-clients .clients-container {
+  padding: 94px 200px;
+  width: 1230px;
+  outline: 2px dotted pink;
+}
+
+.clients-container .title {
+  margin-bottom: 50px;
+}
+
+.clients {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.clients .item + .item {
+  margin-left: 30px;
 }
