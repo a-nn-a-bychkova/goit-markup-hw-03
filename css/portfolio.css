@@ -88,19 +88,23 @@
 
 .examples {
   display: block;
-  border: 1px solid #eeeeee;
-  border-radius: 5px;
 
+  border-radius: 5px;
+  padding-bottom: 20px;
   background-color: var(--primary-white-color);
 }
 
-.examples img {
-  margin-bottom: 20px;
+.card-bottom {
+  padding: 20px 24px;
+  overflow: hidden;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .examples .examples-name {
-  margin-top: 20px;
-  margin-left: 24px;
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -109,8 +113,6 @@
 }
 
 .examples .examples-sort {
-  margin-bottom: 20px;
-  margin-left: 24px;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;

@@ -61,6 +61,14 @@ li {
   list-style: none;
 }
 
+.common-container {
+  width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .upper {
   text-transform: uppercase;
 }
@@ -107,27 +115,34 @@ img {
   width: 1600px;
 }
 /* шапка сайта */
+
+/*Site nav*/
+.header-section {
+  border-bottom: 1px solid #ececec;
+}
+
 .header-container {
   display: flex;
   flex-direction: row;
-  align-items: center;
 }
 
-/*Site nav*/
-.header-container .container {
+.header-container .nav-container {
   display: flex;
-  align-items: center;
-  margin-left: 200px;
+  flex-direction: row;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .logo-link {
   padding-top: 24px;
   padding-bottom: 24px;
+  margin-right: 85px;
 }
 
 .site-nav {
   display: flex;
   flex-direction: row;
+  margin-right: 305px;
 }
 
 .site-nav .item + .item {
@@ -135,10 +150,10 @@ img {
 }
 
 .site-nav .link {
+  display: block;
+
   padding-top: 32px;
   padding-bottom: 32px;
-  margin-left: 86px;
-  display: block;
 
   font-weight: 500;
   font-size: 14px;
@@ -161,9 +176,8 @@ img {
 .container-address {
   display: flex;
   flex-direction: row;
-  margin-left: auto;
-  margin-right: 200px;
-  margin-lef: 360px;
+  /* margin-left: auto; */
+  align-items: center;
 }
 
 .contacts-header {
@@ -183,10 +197,10 @@ img {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-.contact-info .link {
+/* .contact-info .link {
   padding-top: 32px;
   padding-bottom: 32px;
-}
+} */
 
 /*footer*/
 footer {
@@ -229,7 +243,7 @@ footer {
 
 .footer-container .logo {
   display: block;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .contacts {
@@ -239,13 +253,13 @@ footer {
 }
 
 .googlemaps {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
 
 .contacts .information {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
   letter-spacing: 0.03em;
   color: var(--footer-contacts);
 }

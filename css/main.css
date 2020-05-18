@@ -27,7 +27,7 @@
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
-  padding: 46px;
+  margin-bottom: 46px;
 }
 
 .hero button {
@@ -49,18 +49,23 @@
     margin-left: auto;
   margin-right: auto;
 } */
-.our-advantages .container {
+.our-advantages {
   display: flex;
-  margin-right: auto;
-  margin-left: auto;
+  padding: 94px 215px;
   /* outline: 2px dotted pink; */
+  border-bottom: 1px solid #ececec;
 }
 
 .advantages {
   display: flex;
   flex-direction: row;
-  /* justify-content: center; */
-  margin: 94px 200px;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 2px dotted red; */
+}
+
+.advantages .item {
+  width: 270px;
 }
 
 .advantages .item + .item {
@@ -73,7 +78,6 @@
 
 .advantages .advatage-title {
   margin-bottom: 10px;
-
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -126,10 +130,6 @@
 .applications {
   display: flex;
   flex-direction: row;
-}
-
-.applications .item {
-  padding-top: 94px;
 }
 
 .applications .item + .item {
