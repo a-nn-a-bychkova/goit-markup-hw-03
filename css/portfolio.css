@@ -99,6 +99,8 @@
 }
 
 .examples .examples-name {
+  margin-top: 20px;
+  margin-left: 24px;
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -107,10 +109,13 @@
 }
 
 .examples .examples-sort {
+  margin-bottom: 20px;
+  margin-left: 24px;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
 }
+
 .examples .examples-description {
   font-size: 18px;
   line-height: 1.56;
