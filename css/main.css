@@ -53,17 +53,14 @@
   display: flex;
   margin-right: auto;
   margin-left: auto;
-  outline: 2px dotted pink;
+  /* outline: 2px dotted pink; */
 }
 
 .advantages {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  /* justify-content: center; */
   margin: 94px 200px;
-}
-.advantages .item {
-  padding-top: 94px;
 }
 
 .advantages .item + .item {
@@ -71,7 +68,7 @@
 }
 
 .adv-link img {
-  margin-bottom: 30px;
+  margin-bottom: 0;
 }
 
 .advantages .advatage-title {
@@ -90,6 +87,14 @@
   max-width: 278px;
 }
 
+.horizontal-line {
+  text-align: center;
+  width: 1200px;
+  height: 0px;
+  left: 200px;
+  border: 1px solid #ececec;
+}
+
 /* чем мы занимаемся */
 /* .what-we-do {
     margin-left: auto;
@@ -101,14 +106,21 @@
 } */
 
 .what-we-do {
-  display: flex;
-  justify-content: center;
-  padding: ;
+  padding-top: 94px;
+  padding-right: 200px;
+  padding-bottom: 94px;
+  padding-left: 200px;
+  /* border-top: 1px solid #ececec; */
 }
 
 .what-we-do .container {
-  outline: 2px dotted pink;
+  display: block;
+  /* outline: 2px dotted pink; */
   text-align: center;
+  /* margin-top: 94px;
+  margin-right: 200px;
+  margin-bottom: 94px;
+  margin-left: 200px; */
 }
 
 .applications {
@@ -118,7 +130,6 @@
 
 .applications .item {
   padding-top: 94px;
-  margin-bottom: 94px;
 }
 
 .applications .item + .item {
@@ -142,12 +153,15 @@
   margin-right: auto;
 } */
 .team {
-  padding: 94px 198px;
+  padding-top: 94px;
+  padding-right: 198px;
+  padding-bottom: 94px;
+  padding-left: 200px;
   background-color: #f5f4fa;
 }
 
 .team .team-container {
-  outline: 2px dotted pink;
+  /* outline: 2px dotted pink; */
 }
 
 .team-container .title {
@@ -158,6 +172,16 @@
   display: flex;
   flex-direction: row;
   /* margin: 186px 200px 94px; */
+}
+
+.members .item {
+  background: #ffffff;
+
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  text-align: center;
+  padding-bottom: 24px;
 }
 
 .members .item + .item {
@@ -186,14 +210,15 @@
 
 /* наши постоянные клиенты */
 /* .our-clients {
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
 } */
 
 .our-clients .clients-container {
   padding: 94px 200px;
+  margin-right: auto;
+  margin-left: auto;
   width: 1230px;
-  outline: 2px dotted pink;
+  /* outline: 2px dotted pink; */
 }
 
 .clients-container .title {

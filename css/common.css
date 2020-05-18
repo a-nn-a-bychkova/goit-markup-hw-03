@@ -192,20 +192,43 @@ img {
 footer {
   color: var(--primary-white-color);
   background: var(--footer-background);
+  padding-right: 185px;
+  padding-left: 185px;
+  margin-right: 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  /* height: 253px; */
+  padding-right: 185px;
+  padding-left: 185px;
 }
 
 .footer-main {
   display: flex;
   flex-direction: row;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1230px;
+  hight: 193px;
+  padding-right: 15px;
+  padding-bottom: 28px;
+  padding-left: 15px;
+}
+
+.footer-contacts {
+  width: 231px;
+  margin-top: 50px;
+  margin-right: 180px;
 }
 
 .studio-color {
   color: var(--primary-white-color);
 }
 
-.footer-contacts .logo {
+.footer-container .logo {
   display: block;
-  padding-top: 48px;
   padding-bottom: 10px;
 }
 
@@ -214,6 +237,7 @@ footer {
   font-size: 14px;
   line-height: 2;
 }
+
 .googlemaps {
   padding-bottom: 9px;
   letter-spacing: 0.03em;
@@ -230,15 +254,24 @@ address {
   font-style: normal;
 }
 
+.join-container {
+  margin-right: 100px;
+}
+
 .join {
   display: block;
+  width: 207px;
   margin-top: 56px;
+  margin-right: 100px;
   margin-bottom: 21px;
+}
+.subscribe {
+  margin-top: 56px;
+  width: 482px;
 }
 
 .subscribe-title {
   display: block;
-  margin-top: 56px;
   margin-bottom: 21px;
 }
 
@@ -259,6 +292,18 @@ footer button {
 }
 
 .copyright {
+  width: 1230px;
+  height: 60px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.copyright-text {
+  /* margin-bottom: 21px; */
+  width: 1230px;
+  height: 60px;
+  padding-top: 18px;
+  padding-bottom: 21px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
   font-size: 12px;
   line-height: 2;
   color: var(--footer-copyright);

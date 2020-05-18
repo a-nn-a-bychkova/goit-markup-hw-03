@@ -10,13 +10,13 @@
 
 /*фильтр*/
 .portfolio {
-  outline: 2px dotted pink;
+  /* outline: 2px dotted pink; */
   padding: 94px 200px;
 }
 
 .portfolio .container {
   width: 1230px;
-  outline: 2px dotted pink;
+  /* outline: 2px dotted pink; */
 }
 
 .container .filter {
@@ -56,21 +56,31 @@
 /*наши работы*/
 .our-works .container {
   width: 1230px;
-  outline: 2px dotted pink;
+  padding-right: 15px;
+  padding-left: 15px;
+  /* outline: 2px dotted pink; */
 }
 
 .galery {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   flex-wrap: wrap;
-  background-color: teal;
+
+  /* margin: -15px; */
 }
 
 .galery .item {
   width: calc(100%-60px / 3);
+  width: 380px;
   margin-right: 30px;
+  margin-bottom: 30px;
 }
+
+/* .galery .item {
+  width: 380px;
+  margin: 15px;
+} */
 
 .galery .item:nth-child(3n) {
   margin-right: 0;
@@ -78,6 +88,9 @@
 
 .examples {
   display: block;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+
   background-color: var(--primary-white-color);
 }
 
